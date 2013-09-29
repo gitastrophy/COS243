@@ -1,5 +1,4 @@
 require 'spec_helper'
-
 describe "UsersPages" do
   describe "Sign Up" do
     it "allows the user to fill in name and password" do

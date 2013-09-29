@@ -1,0 +1,16 @@
+<h1>Sign up!</h1>
+
+<%= form_for @user do |f| %>
+
+  <%= f.label :username, "Enter a Username" %>
+  <%= f.text_field :username %>
+
+  <%= f.label :password, "Enter a Password" %>
+  <%= f.text_field :password %>
+
+  <%= f.label :password_confirmation, "Enter a Confirmation" %>
+  <%= f.text_field :password_confirmation %>
+
+<%= f.submit 'Create new account' %>
+
+<%end %>
